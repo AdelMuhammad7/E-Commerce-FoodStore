@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- StyleSheet Css Start -->
+     <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="styles/all.min.css">
+    <!-- StyleSheet Css End -->
+
+    <!-- Start Slick Slider -->
+     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <!-- End Slick Slider -->
+
+    <!-- start fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+25&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- end fonts -->
+    <title>Food Store</title>
+
+</head>
+<body>
+    <!-- start Nav -->
+    <nav>
+        <div class="top-nav">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <p>login</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <p>Register Now</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="counterItems">0</span>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="bot-nav">
+            <div>
+                <div>
+                    <img src="icons/phone-2.svg" alt="">
+                    <div>
+                        <p>Call Us : (+20) 1555543588</p>
+                        <span>E-mail : example@gmail.com</span>
+                    </div>
+                </div>
+                              
+                <img src="icons/logo.svg" alt="">
+
+                <div>
+                    <img src="icons/clock.svg" alt="">
+                    <div>
+                        <p>Working Hours :</p>
+                        <span>Sun - Wen ( 3.00pm - 6.00pm )</span>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </nav>
+<!-- End Nav -->
+
+<!-- Start Alert -->
+    <div class="alert">
+        <p id="alertP">This Product Is Added To The Cart</p>
+    </div>
+    <div class="deleteAlert">
+        <p>Make sure to remove the product</p>
+        <div>
+            <span id="yes">Yes</span>
+            <span id="no">No</span>
+        </div>
+    </div>
+<!-- End Alert -->
+
+
+<!-- start Cart Items -->
+<div class="cart-items">
+    <b>Cart Items</b>
+    <p id="empty">Your Cart Is Empty</p>
+    <div class="productsCards">
+        <!-- <div class="cards">
+            <img src="imags/plate-1.png" alt="">
+            <div class="title">
+                <p>Yogurt</p>
+                <span>$35.00</span>
+            </div>
+            <div class="counter">
+                <i class="fa-solid fa-plus" onclick="dola()"></i>
+                <div class="count">0</div>
+                <i class="fa-solid fa-minus"></i>
+            </div>
+            <i class="fa-solid fa-trash"></i>
+        </div> -->
+    </div>
+    <div class="total">
+        <strong>Total</strong>
+        <strong id="total">$ 00.00 </strong>
+    </div>
+    <i class="fa-solid fa-circle-xmark"></i>
+ </div>
+<!-- end Cart Items -->
+
+
+<!-- start Products -->
+ <div class="products">
+    <div class="section-title">
+        <h3>Top Products</h3>
+        <img src="icons/hr.svg" alt="">
+    </div>
+    <div class="ProductsContainer">
+        <!-- <div class="productCard">
+            <div>
+                <img src="imags/yogurt.png" alt="">
+            </div>
+            <b>Fresh vagies</b>
+            <span>$30.00</span>
+            <button>Add to cart</button>
+        </div> -->
+    </div>
+ </div>
+<!-- end Products -->
+
+<!--start footer  -->
+<footer>
+    <div>
+        <b>About us</b>
+        <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum passage.</p>
+        <button>Read More</button>
+    </div>
+    <div>
+        <b>Quik Links</b>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Servicse</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+        <b>Follow Us</b>
+        <span>
+            <i class="fa-brands fa-facebook"></i>
+            <strong>Facebook</strong>
+        </span>
+        <span>
+            <i class="fa-brands fa-twitter"></i>
+            <strong>Twitter</strong>
+        </span>
+        <span>
+            <i class="fa-brands fa-google"></i>
+            <strong>Google +</strong>
+        </span>
+        <span>
+            <i class="fa-brands fa-instagram"></i>
+            <strong>Instgram</strong>
+        </span>
+    </div>
+    <div>
+        <b>Gallery</b>
+        <div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+            <div>
+                <img src="imags/food-table.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="cobyright">
+        <p>Copyright © 2025 .All rights reserved by <span>Adel Muhammad</span></p>
+</div>
+<!--end footer  -->
+
+<!-- Start arrow up -->
+    <div class="arrow-up">
+        <i class="fa-solid fa-circle-arrow-up"></i>
+    </div>
+<!-- End arrow up -->
+
+<!-- Start js -->
+<script src="Scripts/products.js"></script>
+<!-- End js -->
+</body>
+</html>
