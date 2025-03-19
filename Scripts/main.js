@@ -52,7 +52,7 @@ let minutes = document.querySelector(".minutes")
 let seconds = document.querySelector(".seconds")
 function dateLeftForTheMeals (){
     let today = new Date()
-    let dateLeft = new Date("jan 31, 2025")
+    let dateLeft = new Date("march 31, 2025")
     let dateDiffrent = (dateLeft.getDate() - today.getDate() )  - 1
 
     let second = (60 - today.getSeconds())
